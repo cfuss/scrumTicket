@@ -1,0 +1,26 @@
+[ {
+  "ticketNr" : "ASTI-455",
+  "priority" : "Blocker",
+  "titel" : "[ASTI-455] Zahlungsauftrag Buchen Return Codes korrekt berücksichtigen",
+  "description" : "<p>Die aus BCA Rückgemeldeten Statuscodes </p>\n                <ul class=\"alternate\" type=\"square\">\n                <li>SUCCESS_CREATED 201 – bei erfolgreicher Buchung</li>\n                <li>CLIENT_ERROR_BAD_REQUEST 400 – bei Fehlerhaften Daten (Konvertierung, etc.)</li>\n                <li>SERVER_ERROR_INTERNAL 500 – bei SAP Exceptions</li>\n                <li>CLIENT_ERROR_PAY_REQUIRED 402 – keine Payload<br/>\n                in ASTI richtig behandeln.</li>\n                </ul>\n            "
+}, {
+  "ticketNr" : "ASTI-454",
+  "priority" : "Blocker",
+  "titel" : "[ASTI-454] Zahlungsauftrag Buchung erzwingen",
+  "description" : "<p>In der BCA Schnittstelle das Feature des Buchung erzwingen als eigene Rest URL\n                umsetzen. Übergeben wird in dem Fall wieder die Buchung. Dadurch entfällt das Feld Buchung\n                erzwingen in der Schnittstelle.</p>"
+}, {
+  "ticketNr" : "ASTI-453",
+  "priority" : "Blocker",
+  "titel" : "[ASTI-453] BCA Restservice Konto",
+  "description" : "<p>Als Entwickler möchte ich ein Restserivce in BCA aufrufen, um diverse Kontodaten\n                abzurufen.</p>"
+}, {
+  "ticketNr" : "ASTI-355",
+  "priority" : "Blocker",
+  "titel" : "[ASTI-355] BCA Restservice Kontrahent",
+  "description" : "<p>Als Entwickler möchte ich ein Restserivce in BCA aufrufen, um Kontrahenten Daten\n                zu erhalten.</p>"
+}, {
+  "ticketNr" : "ASTI-109",
+  "priority" : "Blocker",
+  "titel" : "[ASTI-109] Prüfung CB Customer",
+  "description" : "<p>ASTI darf zwischen Banken nur Liquiditätsüberträge akzeptieren, d.h.\n                MT103, MT202 (sofern kein Liquiditätstransfer) zwischen Banken müssen abgelehnt werden (dies\n                soll im Contingency Fall ausschaltbar sein).</p>\n\n                <p>Kunden die sich der OeNB als Hausbank bedienen, sogenannte CB Customers (etwa Bund, GSA, OEBB,\n                Messe, ALEK, …) können alle Nachrichten schicken bzw in ASTI erfassen</p>"
+} ]
